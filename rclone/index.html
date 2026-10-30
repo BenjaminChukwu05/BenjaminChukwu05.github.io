@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Information about rclone-personal, a private Google Drive backup integration.">
+  <title>rclone-personal — Personal Google Drive Integration</title>
+  <style>
+    :root{color-scheme:light dark;font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+    body{max-width:760px;margin:6vh auto;padding:0 24px;line-height:1.7}
+    h1,h2{letter-spacing:-.025em;line-height:1.25}
+    h1{font-size:clamp(2rem,5vw,3rem)}
+    a{color:inherit;text-decoration-thickness:1px;text-underline-offset:3px}
+    nav{display:flex;gap:20px;flex-wrap:wrap;padding-bottom:22px;border-bottom:1px solid #8885}
+    section{margin:32px 0}
+    footer{border-top:1px solid #8885;margin-top:44px;padding-top:16px;font-size:.9rem;opacity:.8}
+    .eyebrow{font-size:.8rem;letter-spacing:.09em;text-transform:uppercase;opacity:.7}
+  </style>
+</head>
+<body>
+  <nav aria-label="Primary">
+    <a href="/">Projects</a>
+    <a href="/rclone/" aria-current="page">rclone-personal</a>
+    <a href="/rclone/privacy.html">Privacy policy</a>
+  </nav>
+  <main>
+    <p class="eyebrow">Personal desktop utility</p>
+    <h1>rclone-personal</h1>
+    <p>This is a private, single-user integration using the open-source <a href="https://rclone.org/">rclone</a> command-line tool to access Google Drive from a personal computer. It supports file backups, archive verification, and restoration for the account owner.</p>
+    <section>
+      <h2>What Google Drive access is used for</h2>
+      <p>The integration requests Google Drive permissions so rclone can list files and folders; upload, download, copy, and manage backups; and retrieve previously saved archives. The Google account owner chooses which commands and scheduled tasks are configured. Full Drive access is needed to work with files and folders that existed before this OAuth client was created.</p>
+    </section>
+    <section>
+      <h2>Where it runs</h2>
+      <p>rclone runs locally on the account owner's computer. This website is an informational page only: it is not a cloud backup service, does not authenticate users, and has no upload form or application backend. The desktop integration is not offered for public use.</p>
+    </section>
+    <section>
+      <h2>Privacy</h2>
+      <p>The local integration uses Google account data only to perform its configured file-management and backup operations. Read our <a href="/rclone/privacy.html">privacy policy</a> for details about access, local credential storage, sharing, and deletion.</p>
+    </section>
+    <section>
+      <h2>Contact</h2>
+      <p>This integration is maintained for personal use by <a href="https://github.com/BenjaminChukwu05">BenjaminChukwu05</a>. Questions about this informational site can be directed to the maintainer through their GitHub profile.</p>
+    </section>
+  </main>
+  <footer>Independent personal integration; not affiliated with Google or the rclone project. Updated 30 October 2026.</footer>
+</body>
+</html>
