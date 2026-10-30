@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Privacy policy for the rclone-personal Google Drive integration.">
+  <title>Privacy Policy — rclone-personal</title>
+  <style>
+    :root{color-scheme:light dark;font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+    body{max-width:760px;margin:6vh auto;padding:0 24px;line-height:1.7}
+    h1,h2{letter-spacing:-.025em;line-height:1.25}
+    h1{font-size:clamp(2rem,5vw,2.7rem)}
+    a{color:inherit;text-decoration-thickness:1px;text-underline-offset:3px}
+    nav{display:flex;gap:20px;flex-wrap:wrap;padding-bottom:22px;border-bottom:1px solid #8885}
+    section{margin:28px 0}
+    footer{border-top:1px solid #8885;margin-top:44px;padding-top:16px;font-size:.9rem;opacity:.8}
+  </style>
+</head>
+<body>
+  <nav aria-label="Primary">
+    <a href="/">Projects</a>
+    <a href="/rclone/">rclone-personal</a>
+    <a href="/rclone/privacy.html" aria-current="page">Privacy policy</a>
+  </nav>
+  <main>
+    <h1>Privacy Policy — rclone-personal</h1>
+    <p><strong>Last updated:</strong> 30 October 2026</p>
+    <p><strong>Operator and scope.</strong> rclone-personal is a single-user Google Drive OAuth integration operated by the maintainer of <a href="https://github.com/BenjaminChukwu05">BenjaminChukwu05</a>. It is used with the locally installed rclone application for the operator's own file backups and restores. It is not a service offered to other users.</p>
+    <section>
+      <h2>Google data accessed</h2>
+      <p>With the account owner's authorization, rclone can access Google Drive files, folders, names, metadata, and content. It uses Drive permissions to list and search existing files, upload backups, download and restore archives, and perform any additional file operations the owner explicitly invokes or configures. Because the integration must work with pre-existing backup files, it requests broad Google Drive access rather than access limited to newly created files.</p>
+    </section>
+    <section>
+      <h2>How data is used</h2>
+      <p>Google Drive data is used solely for the owner's local file-management, scheduled-backup, backup-verification, and recovery workflows. It is not used for advertising, profiling, marketing, training models, or sale of personal information.</p>
+    </section>
+    <section>
+      <h2>Storage and authentication</h2>
+      <p>Google handles account sign-in and authorization. OAuth tokens and rclone remote settings are stored in the local configuration on the owner's computer, not in this GitHub Pages website or its public source repository. Backup files remain in the locations the owner selects, including their personal Google Drive account and local storage. The owner is responsible for securing the local computer and configuration files.</p>
+    </section>
+    <section>
+      <h2>Sharing and transfers</h2>
+      <p>This informational website does not receive Google Drive file content or OAuth tokens. When instructed or scheduled by the owner, the locally running rclone program transfers file data between Google Drive and owner-configured storage destinations. No third party is given access to Google user data by this website. Hosting of these public information pages is provided by GitHub Pages, subject to <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub's privacy statement</a>.</p>
+    </section>
+    <section>
+      <h2>Retention and deletion</h2>
+      <p>The owner controls which local and Google Drive files are retained or deleted through rclone and Google Drive. Locally stored OAuth credentials remain until the owner removes the rclone configuration or revokes the app's access in their Google account. Removing the OAuth authorization stops future authorized access but does not automatically delete existing backup files.</p>
+    </section>
+    <section>
+      <h2>Security and changes</h2>
+      <p>The integration uses Google's OAuth authorization flow. The website contains no analytics scripts, login forms, or token collection mechanisms. This policy will be updated if the integration's handling of Google user data changes.</p>
+    </section>
+    <section>
+      <h2>Questions</h2>
+      <p>For questions about this integration or policy, contact the maintainer through <a href="https://github.com/BenjaminChukwu05">their GitHub profile</a>.</p>
+    </section>
+  </main>
+  <footer><a href="/rclone/">Back to rclone-personal</a></footer>
+</body>
+</html>
